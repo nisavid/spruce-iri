@@ -234,7 +234,8 @@ SETUP_CMD_BUILD_DOC := build_sphinx
 SETUP_CMD_EDINSTALL := develop
 SETUP_CMD_EGG_INFO := egg_info $(SETUP_OPT_TAG_BUILD)
 SETUP_CMD_INSTALL := install
-SETUP_CMD_REGISTER := register --repository '$(CHEESESHOP)'
+SETUP_CMD_REGISTER := \
+    register --repository '$(CHEESESHOP)' --strict --show-response
 SETUP_CMD_SDIST := sdist
 SETUP_CMD_TEST := test
 SETUP_CMD_UPLOAD_NOSIGN := upload --repository '$(CHEESESHOP)' --show-response
