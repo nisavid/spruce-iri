@@ -10,10 +10,10 @@ __docformat__ = "restructuredtext"
 
 import re as _re
 
-from spruce.lang import AnnotatedDuckType as _AnnotatedDuckType
+import goosetypes as _goose
 
 
-class Uri(_AnnotatedDuckType):
+class Uri(_goose.GooseType):
 
     """A URI
 

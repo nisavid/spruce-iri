@@ -53,7 +53,7 @@ TROVE_CLASSIFIERS = \
 
 SETUP_DEPS = ()
 
-INSTALL_DEPS = ('spruce-lang',)
+INSTALL_DEPS = ('goosetypes',)
 
 EXTRAS_DEPS = {}
 
