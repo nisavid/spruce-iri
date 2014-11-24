@@ -38,7 +38,7 @@ with open(LICENSE_FILE, 'r') as _file:
 LONG_DESCRIPTION = '\n\n'.join((README, CHANGES))
 
 TROVE_CLASSIFIERS = \
-    ('Development Status :: 5 - Production/Stable',
+    ('Development Status :: 4 - Beta',
      'Intended Audience :: Developers',
      'License :: OSI Approved :: GNU Lesser General Public License v3'
       ' (LGPLv3)',
