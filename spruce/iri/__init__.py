@@ -1,9 +1,9 @@
-"""Manipulation of Uniform Resource Identifiers (URIs)
+"""Internationalized Resource Identifiers (IRIs)
 
 This is an extension of :mod:`urllib` and :mod:`urlparse`.
 
 .. seealso::
-    :rfc:`Uniform Resource Identifier (URI): Generic Syntax <3986>`
+    :rfc:`Internationalized Resource Identifiers (IRIs) <3987>`
 
 """
 

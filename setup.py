@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __credits__ = ["Ivan D Vasin"]
 __maintainer__ = "Ivan D Vasin"
 __email__ = "nisavid@gmail.com"
@@ -11,7 +11,7 @@ from setuptools import find_packages as _find_packages, setup as _setup
 
 # basics ----------------------------------------------------------------------
 
-NAME_NOPREFIX = 'uri'
+NAME_NOPREFIX = 'iri'
 
 NAME = 'Spruce-' + NAME_NOPREFIX
 
@@ -19,9 +19,9 @@ VERSION = '0.1.2'
 
 SITE_URI = ''
 
-DOWNLOAD_URI = 'https://github.com/nisavid/spruce-uri'
+DOWNLOAD_URI = 'https://github.com/nisavid/spruce-iri'
 
-DESCRIPTION = 'Manipulation of Uniform Resource Identifiers (URIs)'
+DESCRIPTION = 'Internationalized Resource Identifiers (IRIs)'
 
 README_FILE = 'README.rst'
 with open(README_FILE, 'r') as _file:

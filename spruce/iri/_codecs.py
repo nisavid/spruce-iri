@@ -5,10 +5,9 @@ formats.
 
 Several of these objects are simply aliases of objects from
 :mod:`urllib` or :mod:`urlparse`.  The names given here are intended to
-be more correct or canonical (per applicable standards such as
-:rfc:`3986`), to more clearly describe functionality, to follow modern
-Python naming conventions, and to avoid inaccurate apparent restrictions
-to URLs (as opposed to URIs generally).
+be more in line with the terminology used in applicable standards (such
+as :rfc:`3986` and :rfc:`3987`), to more clearly describe functionality,
+and to more closely follow current Python naming conventions.
 
 """
 
