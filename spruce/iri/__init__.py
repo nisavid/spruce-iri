@@ -7,6 +7,7 @@ This is an extension of :mod:`urllib` and :mod:`urlparse`.
 
 """
 
+__version__ = "0.1.2"
 __copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __credits__ = ["Ivan D Vasin"]
 __maintainer__ = "Ivan D Vasin"
